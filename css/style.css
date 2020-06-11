@@ -4,8 +4,78 @@
     box-sizing: border-box;
 }
 
-.clearfix {
+.clearfix::after {
     content:'';
     display: table;
     clear: both;
+}
+    /* PER LA BARRA SCHE SCORRE */
+/* .position-fix {
+    height:80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+} */
+
+    /* SECTION 1 */
+.conteiner {
+    width: 80%;
+    margin: 0 auto;
+    /* DA CANCELLARE */
+    height: 1200px;
+    background-color: violet;
+}
+
+.header-top {
+    height: 80px;
+    background-color: green;
+    padding: 10px 0;
+}
+
+#logo {
+    height: 60px;
+    width: auto;
+    float: left;
+}
+
+nav {
+    float: right;
+    line-height: 60px;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #33475b
+}
+
+a i {
+    padding-left: 20px;
+}
+
+.banner {
+    width: 40%;
+}
+
+h1 {
+    color: #33475b;
+    font-size: 300%;
+}
+
+.banner p {
+
+}
+
+button {
+    color: white;
+    border: 1px solid #ff7a59;
+    background-color: #ff7a59;
+    border-radius: 5px;
+    padding: 15px 30px;
 }
