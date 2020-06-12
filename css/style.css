@@ -184,24 +184,85 @@ p {
 }
 
 .box2 {
-    height: 500px;
-    text-align: center;
+    height: 600px;
+    padding: 60px 20px;
     background-color: violet;
 }
 
 .libro {
+    width: 35%;
     float: left;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .libro img {
     height: 120px;
     width: auto;
+    margin-top: 20px;
 }
 .lear {
     color: white;
     border: 1px solid #ff7a59;
     background-color: #ff7a59;
     border-radius: 5px;
-    padding: 15px 30px;
+    padding: 18px 40px;
     margin: 30px 0px;
+}
+
+.libro2 {
+    width: 65%;
+    float: left;
+    font-family: inherit;
+    line-height: 1.6;
+    margin: 20px 0;
+    padding-right: 20px;
+}
+
+.libro2 h2 {
+    color: #33475b;
+    margin-top: 15px;
+}
+
+.libro2 p {
+    color: #33475b;
+    margin: 20px 0;
+}
+
+.line {
+    display: block;
+    /* margin: 30px 0px; */
+}
+
+.line span {
+    font-weight: bold;
+    float: left;
+    width: 20%;
+    display: block;
+}
+
+.line::after {
+    content: '';
+    width: 50%;
+    height: 2px;
+    background-color: blue;
+    float: left;
+    margin-top: 13px;
+    margin-left: 50px;
+}
+
+.inline p {
+    display: inline-block;
+    color: #33475b;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.inline i {
+    color: white;
+    background-color: #ff7a59;
+    border-radius: 10px;
+    padding: 2px;
+    margin-right: 10px;
+
 }
