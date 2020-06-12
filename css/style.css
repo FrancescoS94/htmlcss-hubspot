@@ -153,3 +153,55 @@ p {
     padding: 15px 30px;
     margin: 30px 0px;
 }
+
+/* MAIN */
+/* SECTION 1 */
+.conteiner2 {        /* DA CANCELLARE */
+    width: 80%;
+    margin: 0 auto;
+    /* DA CANCELLARE */
+    height: 1000px;
+}
+
+.sfondo4 {
+    background-color: #f5f8fa;
+    /* height: 800px; */
+}
+
+.box1 {
+    height: 500px;
+    text-align: center;
+    padding: 60px 230px;
+    line-height: 1.6;
+}
+
+.box1 img {
+    height: 250px;
+    width: auto;
+}
+.box1 h2 {
+    padding-bottom: 25px;
+}
+
+.box2 {
+    height: 500px;
+    text-align: center;
+    background-color: violet;
+}
+
+.libro {
+    float: left;
+}
+
+.libro img {
+    height: 120px;
+    width: auto;
+}
+.lear {
+    color: white;
+    border: 1px solid #ff7a59;
+    background-color: #ff7a59;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin: 30px 0px;
+}
