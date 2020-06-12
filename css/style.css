@@ -18,25 +18,80 @@
     width: 100%;
 } */
 
-    /* SECTION 1 */
+/* HEADER */
 .conteiner {
     width: 80%;
     margin: 0 auto;
     /* DA CANCELLARE */
-    height: 1200px;
-    background-color: violet;
+    /* height: 750px; */
+    /* background-color: violet; */
+}
+
+/* BARRA INIZIALE */
+.sfondo1 {
+    height: 80px;
+    background-color: #f5f8fa;
+    border-bottom: 2px solid #33475b;
 }
 
 .header-top {
     height: 80px;
-    background-color: green;
+    padding: 10px 0;
+    line-height: 60px;
+}
+
+.globe {
+    float: left;
+    color: #33475b;
+}
+
+#bord {
+    border-left: 3px solid #808080;
+    margin-left: 10px;
+    padding-left: 15px;
+}
+
+.search {
+    float: right;
+}
+
+#logo-search {
+    color: #00a4bd;
+}
+
+.log-in {
+    color: #ff7a59;
+    border: 1px solid #ff7a59;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 10px;
+    margin-left: 20px;
+}
+
+.gethub {
+    color: white;
+    border: 1px solid #ff7a59;
+    background-color: #ff7a59;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-left: 20px;
+}
+
+/* BARRA NAV */
+.sfondo2 {
+    height: 80px;
+    background-color: white;
+}
+.header-nav {
+    height: 80px;
     padding: 10px 0;
 }
 
 #logo {
-    height: 60px;
+    height: 30px;
     width: auto;
     float: left;
+    margin: 15px 0;
 }
 
 nav {
@@ -52,30 +107,49 @@ ul li {
 
 a {
     text-decoration: none;
-    color: #33475b
+    color: #33475b;
 }
 
-a i {
+li i {
     padding-left: 20px;
 }
 
+/* BANNER */
+.sfondo3 {
+    background-image: url('../img/KnZ9-jumbotron.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+
 .banner {
-    width: 40%;
+    width: 45%;
+    height: 500px;
+    position: relative;
+}
+
+.testo-banner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 h1 {
     color: #33475b;
     font-size: 300%;
+    font-family: inherit;
+    margin: 30px 0px;
 }
 
-.banner p {
-
+p {
+    font-family: inherit;
 }
 
-button {
+.banner button {
     color: white;
     border: 1px solid #ff7a59;
     background-color: #ff7a59;
     border-radius: 5px;
     padding: 15px 30px;
+    margin: 30px 0px;
 }
