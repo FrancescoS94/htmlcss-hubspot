@@ -156,18 +156,12 @@ p {
 
 /* MAIN */
 /* SECTION 1 */
-.conteiner2 {        /* DA CANCELLARE */
-    width: 80%;
-    margin: 0 auto;
-    /* DA CANCELLARE */
-    height: 1000px;
-}
-
 .sfondo4 {
     background-color: #f5f8fa;
-    /* height: 800px; */
+    height: 1615px;
 }
 
+/* BOX 1 */
 .box1 {
     height: 500px;
     text-align: center;
@@ -183,6 +177,7 @@ p {
     padding-bottom: 25px;
 }
 
+/* BOX 2 */
 .box2 {
     height: 400px;
     padding: 60px 20px;
@@ -243,7 +238,7 @@ p {
     content: '';
     width: 68%;
     height: 2px;
-    background-color: blue;
+    background-color: #808080;
     float: left;
     margin-top: 13px;
     margin-left: 40px;
@@ -261,5 +256,62 @@ p {
     background-color: #ff7a59;
     border-radius: 10px;
     padding: 2px;
+    margin: 10px 0;
+}
+
+/* BOX BOX BOX */
+.box {
+    height: 605px;
+    width: 30%;
+    float: left;
+    margin: 4.5% 0;
+    margin-right: 5%;
+    padding: 15px 47px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.box:last-child {
+    margin-right: 0%;
+}
+
+.box img {
+    height: 120px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.box h2,p,h3 {
+    color: #33475b;
+}
+
+.box h2 {
+    margin: 15px 0;
+}
+
+.paragraph {
+    padding-bottom: 50px;
+    line-height: 1.4;
+}
+
+.box h3 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.inside {
+    text-align: center;
+}
+
+.box i {
+    color: white;
+    background-color: #ff7a59;
+    border-radius: 10px;
+    padding: 1px 1px;
+    margin-top: 2px;
     margin-right: 10px;
+}
+
+.box button {
+    margin-top: 50px;
 }
