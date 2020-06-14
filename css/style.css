@@ -19,7 +19,7 @@
 } */
 
 /* HEADER */
-.conteiner {
+.container {
     width: 80%;
     margin: 0 auto;
     /* DA CANCELLARE */
@@ -314,4 +314,67 @@ p {
 
 .box button {
     margin-top: 50px;
+}
+
+/* SECTION 2 */
+.sfondo5 {
+    background-color: #00aab7;
+    background-image: linear-gradient(to right, #00aab7, #00b9a9);
+    height: 780px;
+}
+
+/* BOX 3 */
+.box3 {
+    height: 250px;
+    text-align: center;
+    padding: 40px 87px;
+    font-family: 'Arimo', sans-serif;
+    /* background-color: violet; */
+}
+
+.box3 h2 {
+    color: white;
+    font-size: 200%;
+    margin-bottom: 20px;
+}
+
+.box3 p {
+    color: white;
+    line-height: 1.6;
+}
+
+.box-grid {
+    width: 25%;
+    height: 200px;
+    float: left;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    line-height: 1.6;
+    padding-top: 35px;
+}
+
+.border-b {
+    border-bottom: 1px solid white;
+}
+
+.border-r {
+    border-right: 1px solid white;
+}
+
+.box-grid h2 {
+    color: white;
+    font-size: 300%;
+}
+
+.box-grid span {
+    font-size: 50%;
+}
+
+.box-grid  {
+    font-size: 100%;
+    padding-bottom: 10px;
+}
+
+.box-grid p {
+    color: white;
 }
