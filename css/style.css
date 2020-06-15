@@ -329,7 +329,6 @@ p {
     text-align: center;
     padding: 40px 87px;
     font-family: 'Arimo', sans-serif;
-    /* background-color: violet; */
 }
 
 .box3 h2 {
@@ -343,6 +342,7 @@ p {
     line-height: 1.6;
 }
 
+/* BOX-GRID */
 .box-grid {      /* ALLINEARE IL SEGNO + NELLA GRIGLIA */
     width: 25%;
     height: 200px;
@@ -451,4 +451,45 @@ p {
 .dimension3 {
     height: 30px;
     width: auto;
+}
+
+/* BOX 6 */
+.box6 {
+    height: 450px;
+    width: 40%;
+    float: left;
+}
+
+.box6 button {
+    color: white;
+    border: 1px solid #ff7a59;
+    background-color: #ff7a59;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin: 35px 0px;
+}
+
+.box6 h2 {
+    color: #33475b;
+    font-size: 200%;
+    font-family: 'Arimo', sans-serif;
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+
+.box6 p {
+        font-family: 'Arimo', sans-serif;
+        line-height: 1.6;
+}
+
+/* BOX 7 */
+.box7 {
+    height: 450px;
+    width: 60%;
+    float: left;
+}
+.box7 img {
+    height: 400px;
+    width: auto;
+    float: right;
 }
